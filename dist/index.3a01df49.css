@@ -1,0 +1,483 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #04040410;
+  align-items: center;
+  width: 100%;
+  height: 13vh;
+  padding: 0 30px;
+  display: flex;
+}
+
+.logo {
+  cursor: pointer;
+  align-items: center;
+  width: 30%;
+  padding-left: 5%;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.navbar {
+  cursor: pointer;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  padding-left: 5%;
+  font-size: 1.3rem;
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  color: #000;
+  text-decoration: none;
+}
+
+.container {
+  background: #fff0;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 50px;
+  display: flex;
+}
+
+.cardhero img {
+  height: 120px;
+}
+
+.body {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 50px;
+  display: flex;
+}
+
+.card {
+  text-align: center;
+  background-color: #f7f5f5;
+  border: .2px solid #000;
+  border-radius: 5px;
+  width: 200px;
+  margin: 15px 20px 20px;
+  padding: 5px;
+  line-height: 30px;
+}
+
+.card:hover {
+  transition: all;
+  scale: 1.02;
+}
+
+.card img {
+  width: 180px;
+  height: 120px;
+  overflow: hidden;
+}
+
+.text {
+  text-align: left;
+}
+
+.search-container {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search-input {
+  width: 40%;
+  margin-right: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.search-btn {
+  min-width: 70px;
+  height: 40px;
+}
+
+.shimmer-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+}
+
+.shimmer-card {
+  background-color: #ddd8d8;
+  width: 200px;
+  height: 250px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.error-page {
+  text-align: center;
+  vertical-align: middle;
+  background: #e3c7c7;
+  height: 100vh;
+  padding-top: 60px;
+  line-height: 60px;
+}
+
+.contact-container {
+  text-align: center;
+  background-color: #9da994;
+  justify-content: space-around;
+  height: 70vh;
+  padding-top: 90px;
+  display: flex;
+}
+
+.formbox {
+  margin: 40px;
+}
+
+.inp {
+  width: 150%;
+  height: 40px;
+  margin: 20px 0;
+  padding: 5px;
+  display: block;
+}
+
+.texta {
+  height: 100px;
+}
+
+.btn {
+  width: 100px;
+  margin-left: 100px;
+}
+
+.cuisines {
+  height: 22px;
+  overflow: hidden;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+}
+
+.line {
+  background-color: #000;
+  width: 30px;
+  height: 3px;
+  margin: 4px 0;
+}
+
+.menu {
+  display: none;
+}
+
+.salogan {
+  text-align: center;
+  background: #e9e9e9 linear-gradient(to right, #a2b1bd, #c9c6c6);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: 2rem;
+  padding: 2rem;
+  font-family: cursive;
+  font-size: 20px;
+  line-height: 2rem;
+  display: flex;
+}
+
+.menures {
+  background: #e9e9e9;
+  border-radius: 10px;
+  justify-content: space-around;
+  width: 95%;
+  margin: 2rem;
+  display: flex;
+}
+
+.menuHero-1 {
+  text-align: center;
+  margin-top: 2rem;
+  line-height: 20px;
+}
+
+.menuHero-1 p {
+  margin-bottom: 5px;
+}
+
+.menuHero-2 {
+  margin-top: 3rem;
+  margin-right: 5rem;
+}
+
+.menuimage {
+  border: 5px solid #fff;
+  border-radius: 200px;
+  width: 300px;
+  height: 300px;
+  margin: 1rem 2rem;
+}
+
+.menuimage:hover {
+  transition: all ease-in;
+  scale: 1.02;
+}
+
+.foodname {
+  margin: 2rem;
+}
+
+.ingd {
+  font-family: Times, Times New Roman, serif;
+  line-height: 2.8rem;
+}
+
+.instruction {
+  background: #e9e9e9;
+  border-radius: 10px;
+  width: 95%;
+  margin: 2rem;
+  line-height: 2rem;
+}
+
+.instruction h2 {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-size: 1.2rem;
+}
+
+.faltu {
+  display: flex;
+}
+
+.steps {
+  margin-left: 2rem;
+  padding: 3rem;
+  font-family: Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
+  font-size: 1.1rem;
+  line-height: 3rem;
+}
+
+.di {
+  background-color: #c7c5c5;
+  padding: 2rem;
+}
+
+@media (width <= 480px) {
+  .header {
+    height: 5rem;
+    position: relative;
+  }
+
+  .navbar {
+    text-align: center;
+    background: #d7cdcdd2;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    padding: 5rem 0 20px;
+    line-height: 50px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .nav-item {
+    display: block;
+  }
+
+  .logo {
+    z-index: 1;
+    width: 160px;
+    padding-left: 7px;
+    font-size: 15px;
+  }
+
+  .search-input {
+    margin-right: 5px;
+    padding: 5px;
+  }
+
+  .search-btn {
+    width: 20px;
+    height: 2rem;
+  }
+
+  .menu {
+    position: absolute;
+    top: 1.4rem;
+    right: 1.4rem;
+    display: block !important;
+  }
+
+  #open {
+    display: block !important;
+  }
+
+  .menures {
+    flex-direction: column;
+    margin: 20px 0 0;
+    padding: 0;
+  }
+
+  .menuimage {
+    width: 200px;
+    height: 200px;
+  }
+
+  .instruction {
+    margin: 2rem 0 0;
+    overflow: hidden;
+  }
+
+  .salogan {
+    margin: 0;
+    padding: 1.4rem;
+  }
+
+  .menuHero-2 {
+    margin-right: 0;
+    padding-left: 1rem;
+  }
+
+  .faltu {
+    flex-direction: column;
+  }
+
+  .steps {
+    margin-left: 0;
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .card {
+    width: 170px;
+    margin: 15px 7px 20px;
+  }
+
+  .card img {
+    width: 150px;
+    height: 105px;
+  }
+
+  .body {
+    padding: 10px 2px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .inp {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100px;
+  }
+
+  .foodname {
+    line-height: normal;
+  }
+
+  #lastdiv {
+    display: none;
+  }
+
+  .bottom {
+    text-align: center;
+  }
+
+  .err-img {
+    width: 200px;
+  }
+
+  .login img {
+    display: none;
+  }
+
+  .login {
+    line-height: 10px;
+  }
+}
+
+.bottom {
+  color: #000;
+  background-image: linear-gradient(to right, #c9c6c6, #a2b1bd);
+  justify-content: space-around;
+  padding: 20px;
+  display: flex;
+}
+
+.bottom a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bottom li {
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  line-height: 3rem;
+  list-style: none;
+}
+
+.workingmessage {
+  background-color: #9da994;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  display: flex;
+}
+
+.overlay {
+  z-index: 2;
+  cursor: pointer;
+  background-color: #242121c2;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  inset: 0;
+}
+
+.form {
+  z-index: 100;
+  background: #f7f5f5;
+  width: 400px;
+  height: 500px;
+}
+
+.login {
+  text-align: center;
+  padding: .7rem;
+}
+
+.login img {
+  background-color: #c6c6e6;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.shm2 {
+  background: #e0e0e0;
+  width: 90%;
+  height: 55vh;
+  margin: 5rem 4rem 4rem;
+}
+/*# sourceMappingURL=index.3a01df49.css.map */
